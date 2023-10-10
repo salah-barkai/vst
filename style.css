@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+
+header .logo {
+    margin: 0px;
+    cursor: pointer;
+}
+
+header .logo span {
+    color: orangered;
+}
+
+navbar {
+    justify-content: center;
+    margin-left: 450px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+navbar ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+#menu {
+    font-size: 30px;
+    margin-left: 400px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.contenaire {
+    margin-top: 120px;
+    align-items: center;
+}
+
+.contenaire h2 {
+    margin: 20px;
+    font: 30px;
+}
+
+.video {
+    display: inline-block;
+    margin: 20px;
+}
+
+.blogs {
+    margin: 15px;
+}
+
+.titre2 h3 {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.blogging div {
+    display: inline-block;
+    margin: 10px;
+    justify-content: center;
+}
+
+.mes_blogs {
+    padding: 5px;
+    border: 1px solid;
+    margin: 5px;
+    width: 400px;
+    justify-content: center;
+}
+
+ion-icon {
+    font-size: 30px;
+    background-color: orangered;
+    padding: 5px;
+    color: black;
+    margin: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+#menu_page {
+    display: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    border: 1px solid;
+    padding: 10px;
+    margin-top: 75px;
+    color: white;
+    border-radius: 10px;
+}
+
+co #menu_page ul {
+    list-style: none;
+    margin: 2px;
+    justify-content: center;
+}
+
+#menu_page ul li {
+    align-items: center;
+    justify-content: center;
+}
